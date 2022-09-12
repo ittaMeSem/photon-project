@@ -102,3 +102,15 @@ header h2 {
     border-radius: 0.8rem;
     cursor: pointer;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 425px) {
+    #logo {
+        font-size: 4rem;
+    }
+
+    .search-form input {
+        font-size: 1rem;
+    }
+}
