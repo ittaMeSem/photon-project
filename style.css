@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2 {
+    padding: 2rem;
+}
+
+#logo {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 5rem;
+    text-decoration: none;
+    background: rgb(136, 40, 195);
+    background: linear-gradient(90deg, rgba(136, 40, 195, 1) 0%, rgba(81, 81, 233, 1) 35%, rgba(45, 194, 224, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-form {
+    padding: 2rem;
+    display: flex;
+}
+
+.search-form input {
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    border: 2px solid rgb(74, 68, 131);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.search-form button {
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: rgb(74, 68, 131);
+    color: #fff;
+    cursor: pointer;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
